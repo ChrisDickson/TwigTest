@@ -14,5 +14,7 @@ def split_list(lst, n):
 
 lst = list(range(1,6))
 n = 3
+print(f"List: {lst} \nNumber of sub-lists: {n}")
 print(split_list(lst,n))
+input("Press enter to exit.")
 
