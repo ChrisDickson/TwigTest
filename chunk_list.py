@@ -1,7 +1,7 @@
 def split_list(lst, n):
     # Gets the number of elements in each 'chunk'
     size = round(len(lst)/n)
-    print(size)
+    
     # List comprehension - if len(list) = 5 and n = 3
     #   loops through to get all but the final chunk
     #   starting at 0 and incrementing i by 3 each time until the 4th element 
