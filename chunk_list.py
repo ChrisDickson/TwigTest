@@ -12,9 +12,11 @@ def split_list(lst, n):
     chunk_list.append(lst[(n-1)*int(size):])
     return chunk_list   
 
-lst = list(range(1,6))
-n = 3
-print(f"List: {lst} \nNumber of sub-lists: {n}")
-print(split_list(lst,n))
+lst_list = [list(range(1,6)), list(range(1,20)), list(range(15)), list(range(33))]
+n_list = [3, 5, 8]
+for lst in lst_list:
+    for n in n_list:
+        print(f"List: {lst} \nNumber of sub-lists: {n}")
+        print(split_list(lst,n))
 input("Press enter to exit.")
 
